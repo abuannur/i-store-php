@@ -176,7 +176,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">Cash On delivery</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Conveniently complete your purchase with the option to pay upon delivery, ensuring flexibility and peace of mind.
           </p>
 
@@ -188,7 +188,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">Fast Home Delivery</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Experience swift shipping and delivery services, ensuring your items reach you promptly so you can enjoy them sooner.
           </p>
         </div>
@@ -200,7 +200,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">Best Quality Products</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Explore a curated collection of trendy clothing and accessories to keep your wardrobe updated and on-point.
           </p>
 
@@ -214,7 +214,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">Money Back Grantee</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Explore a curated collection of trendy clothing and accessories to keep your wardrobe updated and on-point.
           </p>
 
@@ -229,7 +229,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">100% Client Satisfiction</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Explore a curated collection of trendy clothing and accessories to keep your wardrobe updated and on-point.
           </p>
 
@@ -243,7 +243,7 @@
 
           <h1 class="text-xl font-semibold text-gray-700 capitalize ">24/7 Custommer Support</h1>
 
-          <p class="text-gray-500 dark:text-gray-300">
+          <p class="text-gray-500 ">
             Explore a curated collection of trendy clothing and accessories to keep your wardrobe updated and on-point.
           </p>
 
@@ -255,7 +255,7 @@
   </section>
 
   <!-- faq -->
-  <section class="mb-20 max-w-screen-xl mx-auto">
+  <section class=" max-w-screen-xl mx-auto">
     <h1 class="text-center text-4xl font-bold my-10">Most <span class="text-amber-500">Frequently</span> Ask Questions</h1>
 
     <div class="collapse collapse-plus bg-amber-50 my-6">
@@ -311,7 +311,7 @@
 
   <!-- review -->
 
-  <section class="bg-white ">
+  <section class="bg-white mb-16">
     <div class="container px-6 py-10 mx-auto">
       <div class="mt-6 md:flex md:items-center md:justify-between">
         <div>
@@ -325,8 +325,6 @@
             <span class="inline-block w-1 h-1 bg-amber-500 rounded-full"></span>
           </div>
         </div>
-
-
       </div>
 
       <section class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
@@ -339,11 +337,11 @@
           </p>
 
           <div class="flex items-center mt-8 -mx-2">
-            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="img/sahoss.jpg" alt="">
+            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 " src="img/sahoss.jpg" alt="">
 
             <div class="mx-2">
               <h1 class="font-semibold text-gray-800 ">Sahoss Khan</h1>
-              <span class="text-sm text-gray-500 dark:text-gray-400">CEO & Founder, CSEssence</span>
+              <span class="text-sm text-gray-500 ">CEO & Founder, CSEssence</span>
             </div>
           </div>
         </div>
@@ -356,11 +354,11 @@
           </p>
 
           <div class="flex items-center mt-8 -mx-2">
-            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="img/sahoss.jpg" alt="">
+            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 " src="img/sahoss.jpg" alt="">
 
             <div class="mx-2">
               <h1 class="font-semibold text-gray-800 ">Sahoss Khan</h1>
-              <span class="text-sm text-gray-500 dark:text-gray-400">CEO & Founder, CSEssence</span>
+              <span class="text-sm text-gray-500 ">CEO & Founder, CSEssence</span>
             </div>
           </div>
         </div>
@@ -375,11 +373,11 @@
           </p>
 
           <div class="flex items-center mt-8 -mx-2">
-            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="img/sahoss.jpg" alt="">
+            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 " src="img/sahoss.jpg" alt="">
 
             <div class="mx-2">
               <h1 class="font-semibold text-gray-800 ">Sahoss Khan</h1>
-              <span class="text-sm text-gray-500 dark:text-gray-400">CEO & Founder, CSEssence</span>
+              <span class="text-sm text-gray-500 ">CEO & Founder, CSEssence</span>
             </div>
           </div>
         </div>

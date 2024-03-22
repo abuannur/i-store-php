@@ -11,7 +11,7 @@
 <body>
 
     <!-- Navbar -->
-    <div class="navbar bg-amber-50">
+<div class="navbar bg-amber-50">
   <div class="flex-1">
  <!-- Drop down hamburger -->
  <div class="dropdown">
@@ -20,25 +20,25 @@
       </div>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         
-      <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/food-product')}}">Food & Grocery</a></li>
-        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/fashion-product')}}">Cloths & Fashion</a></li>
-        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/electronics-product')}}">Electronics</a></li>
+      <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/food')}}">Food</a></li>
+        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/clothing')}}">Clothing</a></li>
+        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/electronics')}}">Electronics</a></li>
       </ul>
     </div>
 
     <!-- Logo -->
-    <Link to="/">
+   
     <div class="flex items-center gap-2">
  <img class="lg:h-8 md:h-7 h-6  " src="img/logo.png" alt="">
     <a href="{{url('/')}}" class="font-bold lg:text-2xl md:texl-2xl uppercase text-xl">I-Store</a>
  </div>
- </Link>
+ 
  <!-- nav menu -->
  <div class=" hidden lg:flex ml-16">
     <ul class="menu menu-horizontal px-1">
-    <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/food-product')}}">Food & Grocery</a></li>
-        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/fashion-product')}}">Cloths & Fashion</a></li>
-        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/electronics-product')}}">Electronics</a></li>
+    <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a href="{{url('/food')}}">Food</a></li>
+        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/clothing')}}">Clothing</a></li>
+        <li class="text-xl font-bold hover:bg-amber-500 rounded-lg"><a  href="{{url('/electronics')}}">Electronics</a></li>
         
     </ul>
   </div>
@@ -82,14 +82,9 @@
         </div>
       </div>
       <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-amber-50 rounded-box w-52">
-        <li>
-          <a class="justify-between">
-            Profile
-            <span class="badge">New</span>
-          </a>
-        </li>
-        <li><a>Dashboard</a></li>
-        <li><a>Logout</a></li>
+        <li><a href="{{url('/add-product')}}" >Add Product</a></li>
+        <li><a href="{{url('/view-cart')}}" >View Cart</a></li>
+        <li><a href="{{url('/login')}}">Login</a></li>
       </ul>
     </div>
     

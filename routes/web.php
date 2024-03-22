@@ -17,16 +17,33 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/food-product', function () {
-    return view('pages.foodproduct');
+Route::get('/food', function () {
+    return view('pages.food');
 });
 
-Route::get('/fashion-product', function () {
-    return view('pages.fashionproduct');
+Route::get('/clothing', function () {
+    return view('pages.clothing');
 });
 
-Route::get('/electronics-product', function () {
-    return view('pages.electronicsproduct');
+Route::get('/electronics', function () {
+    return view('pages.electronics');
 });
+
+Route::get('/login', function () {
+    return view('pages.auth.login');
+});
+Route::get('/signup', function () {
+    return view('pages.auth.signup');
+});
+
+Route::get('/add-product', function () {
+    return view('pages.add');
+});
+
+Route::get('/view-cart', function () {
+    return view('pages.cart');
+});
+
+
 
 

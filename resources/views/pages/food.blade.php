@@ -22,8 +22,9 @@
                     Frozen
                     </option>
                     <option value="Cookingz">
-                    Cookingz
+                    Cooking
                     </option>
+                 
 
                 </select>
                 <h1 class="w-full bg-amber-500 py-[12px] rounded-l-none px-5 text-center rounded-md text-white text-xl font-bold">Category</h1>
