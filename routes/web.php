@@ -17,13 +17,16 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/all-product', function () {
-    return view('pages.allproduct');
-});
-Route::get('/about', function () {
-    return view('pages.about');
+Route::get('/food-product', function () {
+    return view('pages.foodproduct');
 });
 
-Route::get('/contact', function () {
-    return view('pages.contact');
+Route::get('/fashion-product', function () {
+    return view('pages.fashionproduct');
 });
+
+Route::get('/electronics-product', function () {
+    return view('pages.electronicsproduct');
+});
+
+
